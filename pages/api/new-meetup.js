@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     // const { title, image, description, address } = data;
 
     const client = await MongoClient.connect(
-      'mongodb+srv://ginryo:LYcvrzU7BRLV8nL@cluster0.spv0bgt.mongodb.net/meetups?retryWrites=true&w=majority'
+      'mongodb+srv://potato:Zt50CqmQZdlMq5tB@cluster0.spv0bgt.mongodb.net/meetups?retryWrites=true&w=majority'
     );
     const db = client.db();
 
