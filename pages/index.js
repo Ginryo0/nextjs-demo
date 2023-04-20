@@ -19,7 +19,7 @@ export async function getStaticProps() {
   // this code will never end up on client side bundle
 
   const client = await MongoClient.connect(
-    'mongodb+srv://ginryo:nYLu5PhiBEiEWxOP@cluster0.spv0bgt.mongodb.net/meetups?retryWrites=true&w=majority'
+    'mongodb+srv://potato:Zt50CqmQZdlMq5tB@cluster0.spv0bgt.mongodb.net/meetups?retryWrites=true&w=majority'
   );
 
   const db = client.db();
